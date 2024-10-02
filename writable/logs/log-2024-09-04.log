@@ -1,0 +1,1535 @@
+INFO - 2024-09-04 00:04:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-04 00:05:45 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarcliente/plugins/jquery-sparkline/jquery.sparkline.js]
+in APPPATH\Views\cliente\editar.php on line 36.
+ 1 APPPATH\Views\cliente\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\cliente\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\cliente\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('cliente/editar', [], true)
+ 5 APPPATH\Controllers\ClienteController.php(123): view('cliente/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->edit('plugins', 'jquery-sparkline', 'jquery.sparkline.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 00:05:46 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarcliente/favicon.ico]
+in APPPATH\Views\cliente\editar.php on line 36.
+ 1 APPPATH\Views\cliente\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\cliente\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\cliente\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('cliente/editar', [], true)
+ 5 APPPATH\Controllers\ClienteController.php(123): view('cliente/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-04 00:06:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-04 00:07:32 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarcliente/plugins/jquery-sparkline/jquery.sparkline.js]
+in APPPATH\Views\cliente\editar.php on line 36.
+ 1 APPPATH\Views\cliente\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\cliente\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\cliente\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('cliente/editar', [], true)
+ 5 APPPATH\Controllers\ClienteController.php(123): view('cliente/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->edit('plugins', 'jquery-sparkline', 'jquery.sparkline.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 00:07:35 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarcliente/favicon.ico]
+in APPPATH\Views\cliente\editar.php on line 36.
+ 1 APPPATH\Views\cliente\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\cliente\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\cliente\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('cliente/editar', [], true)
+ 5 APPPATH\Controllers\ClienteController.php(123): view('cliente/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-04 00:10:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-04 00:10:50 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarcliente/plugins/jquery-sparkline/jquery.sparkline.js]
+in APPPATH\Views\cliente\editar.php on line 36.
+ 1 APPPATH\Views\cliente\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\cliente\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\cliente\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('cliente/editar', [], true)
+ 5 APPPATH\Controllers\ClienteController.php(123): view('cliente/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->edit('plugins', 'jquery-sparkline', 'jquery.sparkline.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 00:10:52 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarcliente/favicon.ico]
+in APPPATH\Views\cliente\editar.php on line 36.
+ 1 APPPATH\Views\cliente\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\cliente\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\cliente\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('cliente/editar', [], true)
+ 5 APPPATH\Controllers\ClienteController.php(123): view('cliente/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-04 00:10:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-04 00:11:04 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarcliente/plugins/jquery-sparkline/jquery.sparkline.js]
+in APPPATH\Views\cliente\editar.php on line 36.
+ 1 APPPATH\Views\cliente\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\cliente\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\cliente\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('cliente/editar', [], true)
+ 5 APPPATH\Controllers\ClienteController.php(123): view('cliente/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->edit('plugins', 'jquery-sparkline', 'jquery.sparkline.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 00:11:08 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarcliente/favicon.ico]
+in APPPATH\Views\cliente\editar.php on line 36.
+ 1 APPPATH\Views\cliente\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\cliente\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\cliente\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('cliente/editar', [], true)
+ 5 APPPATH\Controllers\ClienteController.php(123): view('cliente/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-04 00:11:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-04 00:11:28 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarusuario/plugins/jquery-sparkline/jquery.sparkline.js]
+in APPPATH\Views\usuario\editar.php on line 36.
+ 1 APPPATH\Views\usuario\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\usuario\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\usuario\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('usuario/editar', [], true)
+ 5 APPPATH\Controllers\UsuarioController.php(126): view('usuario/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UsuarioController->edit('plugins', 'jquery-sparkline', 'jquery.sparkline.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 00:11:30 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarusuario/favicon.ico]
+in APPPATH\Views\usuario\editar.php on line 36.
+ 1 APPPATH\Views\usuario\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\usuario\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\usuario\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('usuario/editar', [], true)
+ 5 APPPATH\Controllers\UsuarioController.php(126): view('usuario/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UsuarioController->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-04 00:11:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-04 00:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-04 00:14:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-04 00:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-04 00:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-04 00:15:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-04 00:15:39 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarusuario/plugins/jquery-sparkline/jquery.sparkline.js]
+in APPPATH\Views\usuario\editar.php on line 36.
+ 1 APPPATH\Views\usuario\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\usuario\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\usuario\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('usuario/editar', [], true)
+ 5 APPPATH\Controllers\UsuarioController.php(133): view('usuario/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UsuarioController->edit('plugins', 'jquery-sparkline', 'jquery.sparkline.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 00:15:42 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarusuario/favicon.ico]
+in APPPATH\Views\usuario\editar.php on line 36.
+ 1 APPPATH\Views\usuario\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\usuario\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\usuario\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('usuario/editar', [], true)
+ 5 APPPATH\Controllers\UsuarioController.php(133): view('usuario/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UsuarioController->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-04 00:15:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-04 01:03:46 --> [DEPRECATED] password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in APPPATH\Controllers\ClienteController.php on line 101.
+ 1 APPPATH\Controllers\ClienteController.php(101): password_hash(Object(SensitiveParameterValue), '2y', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->guardarAdmin()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-04 01:03:47 --> mysqli_sql_exception: Column 'nombre' cannot be null in C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xampp\htdocs\presupuesto\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\xampp\htdocs\presupuesto\app\Models\ClienteModel.php(33): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\presupuesto\app\Controllers\ClienteController.php(111): App\Models\ClienteModel->insertar(Array)
+#6 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(933): App\Controllers\ClienteController->guardarAdmin()
+#7 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+#8 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\presupuesto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\presupuesto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\presupuesto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-09-04 01:03:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'nombre' cannot be null
+[Method: POST, Route: formcliente]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`, `created_at`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:, :created_at:)', [...], false)
+ 2 APPPATH\Models\ClienteModel.php(33): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ClienteController.php(111): App\Models\ClienteModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->guardarAdmin()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 01:03:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'nombre' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`, `created_at`) VALUES (NULL, NULL, \'04121090185\', \'mundo.pc3@gmail.com\', \'$2y$10$AiKDIHUCV0cZpowoEewXaeAIF8EyndbkKGXUnFxzuQOhKcA7oplqO\', 0, \'2024-09-04\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`, `created_at`) VALUES (NULL, NULL, \'04121090185\', \'mundo.pc3@gmail.com\', \'$2y$10$AiKDIHUCV0cZpowoEewXaeAIF8EyndbkKGXUnFxzuQOhKcA7oplqO\', 0, \'2024-09-04\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`, `created_at`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:, :created_at:)', [...], false)
+ 4 APPPATH\Models\ClienteModel.php(33): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\ClienteController.php(111): App\Models\ClienteModel->insertar([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->guardarAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 01:03:47 --> [Caused by] mysqli_sql_exception: Column 'nombre' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`, `created_at`) VALUES (NULL, NULL, \'04121090185\', \'mundo.pc3@gmail.com\', \'$2y$10$AiKDIHUCV0cZpowoEewXaeAIF8EyndbkKGXUnFxzuQOhKcA7oplqO\', 0, \'2024-09-04\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`, `created_at`) VALUES (NULL, NULL, \'04121090185\', \'mundo.pc3@gmail.com\', \'$2y$10$AiKDIHUCV0cZpowoEewXaeAIF8EyndbkKGXUnFxzuQOhKcA7oplqO\', 0, \'2024-09-04\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`, `created_at`) VALUES (NULL, NULL, \'04121090185\', \'mundo.pc3@gmail.com\', \'$2y$10$AiKDIHUCV0cZpowoEewXaeAIF8EyndbkKGXUnFxzuQOhKcA7oplqO\', 0, \'2024-09-04\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`, `created_at`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:, :created_at:)', [...], false)
+ 5 APPPATH\Models\ClienteModel.php(33): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\ClienteController.php(111): App\Models\ClienteModel->insertar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->guardarAdmin()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-09-04 01:05:57 --> [DEPRECATED] password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in APPPATH\Controllers\ClienteController.php on line 101.
+ 1 APPPATH\Controllers\ClienteController.php(101): password_hash(Object(SensitiveParameterValue), '2y', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->guardarAdmin()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-04 01:05:57 --> mysqli_sql_exception: Column 'nombre' cannot be null in C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xampp\htdocs\presupuesto\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\xampp\htdocs\presupuesto\app\Models\ClienteModel.php(33): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\presupuesto\app\Controllers\ClienteController.php(111): App\Models\ClienteModel->insertar(Array)
+#6 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(933): App\Controllers\ClienteController->guardarAdmin()
+#7 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+#8 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\presupuesto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\presupuesto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\presupuesto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-09-04 01:05:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'nombre' cannot be null
+[Method: POST, Route: formcliente]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`, `created_at`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:, :created_at:)', [...], false)
+ 2 APPPATH\Models\ClienteModel.php(33): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ClienteController.php(111): App\Models\ClienteModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->guardarAdmin()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 01:05:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'nombre' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`, `created_at`) VALUES (NULL, NULL, \'04121090185\', \'mundo.pc3@gmail.com\', \'$2y$10$TlIkyngOXrlPLFHDRmD/Y.KrgxgrUEBKjMm.QJNzGZ3OYVo3DSnD.\', 0, \'2024-09-04\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`, `created_at`) VALUES (NULL, NULL, \'04121090185\', \'mundo.pc3@gmail.com\', \'$2y$10$TlIkyngOXrlPLFHDRmD/Y.KrgxgrUEBKjMm.QJNzGZ3OYVo3DSnD.\', 0, \'2024-09-04\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`, `created_at`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:, :created_at:)', [...], false)
+ 4 APPPATH\Models\ClienteModel.php(33): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\ClienteController.php(111): App\Models\ClienteModel->insertar([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->guardarAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 01:05:57 --> [Caused by] mysqli_sql_exception: Column 'nombre' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`, `created_at`) VALUES (NULL, NULL, \'04121090185\', \'mundo.pc3@gmail.com\', \'$2y$10$TlIkyngOXrlPLFHDRmD/Y.KrgxgrUEBKjMm.QJNzGZ3OYVo3DSnD.\', 0, \'2024-09-04\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`, `created_at`) VALUES (NULL, NULL, \'04121090185\', \'mundo.pc3@gmail.com\', \'$2y$10$TlIkyngOXrlPLFHDRmD/Y.KrgxgrUEBKjMm.QJNzGZ3OYVo3DSnD.\', 0, \'2024-09-04\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`, `created_at`) VALUES (NULL, NULL, \'04121090185\', \'mundo.pc3@gmail.com\', \'$2y$10$TlIkyngOXrlPLFHDRmD/Y.KrgxgrUEBKjMm.QJNzGZ3OYVo3DSnD.\', 0, \'2024-09-04\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`, `created_at`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:, :created_at:)', [...], false)
+ 5 APPPATH\Models\ClienteModel.php(33): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\ClienteController.php(111): App\Models\ClienteModel->insertar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->guardarAdmin()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 01:06:26 --> ErrorException: Undefined variable $logo
+[Method: POST, Route: formproveedor]
+in APPPATH\Controllers\ProveedorController.php on line 50.
+ 1 APPPATH\Controllers\ProveedorController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $logo', 'C:\\xampp\\htdocs\\presupuesto\\app\\Controllers\\ProveedorController.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->store()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-04 01:07:01 --> mysqli_sql_exception: Column 'nombre_representante' cannot be null in C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\presupuesto\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\presupuesto\app\Models\ProveedorModel.php(34): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\presupuesto\app\Controllers\ProveedorController.php(60): App\Models\ProveedorModel->insertar(Array)
+#6 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(933): App\Controllers\ProveedorController->store()
+#7 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+#8 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\presupuesto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\presupuesto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\presupuesto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-09-04 01:07:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'nombre_representante' cannot be null
+[Method: POST, Route: formproveedor]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `proveedor` (`logo_proveedor`, `nombre_representante`, `nombre_empresa`, `telefono`, `email`, `direccion`, `status`, `created_at`) VALUES (:logo_proveedor:, :nombre_representante:, :nombre_empresa:, :telefono:, :email:, :direccion:, :status:, :created_at:)', [...], false)
+ 2 APPPATH\Models\ProveedorModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ProveedorController.php(60): App\Models\ProveedorModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->store()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 01:07:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'nombre_representante' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `proveedor` (`logo_proveedor`, `nombre_representante`, `nombre_empresa`, `telefono`, `email`, `direccion`, `status`, `created_at`) VALUES (\'images/pokemon_1.png\', NULL, \'PokemonStore\', \'04121090185\', \'mundo.pc3@gmail.com\', \'Ciudad Guayana\', 0, \'2024-09-04\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `proveedor` (`logo_proveedor`, `nombre_representante`, `nombre_empresa`, `telefono`, `email`, `direccion`, `status`, `created_at`) VALUES (\'images/pokemon_1.png\', NULL, \'PokemonStore\', \'04121090185\', \'mundo.pc3@gmail.com\', \'Ciudad Guayana\', 0, \'2024-09-04\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `proveedor` (`logo_proveedor`, `nombre_representante`, `nombre_empresa`, `telefono`, `email`, `direccion`, `status`, `created_at`) VALUES (:logo_proveedor:, :nombre_representante:, :nombre_empresa:, :telefono:, :email:, :direccion:, :status:, :created_at:)', [...], false)
+ 4 APPPATH\Models\ProveedorModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\ProveedorController.php(60): App\Models\ProveedorModel->insertar([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 01:07:01 --> [Caused by] mysqli_sql_exception: Column 'nombre_representante' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `proveedor` (`logo_proveedor`, `nombre_representante`, `nombre_empresa`, `telefono`, `email`, `direccion`, `status`, `created_at`) VALUES (\'images/pokemon_1.png\', NULL, \'PokemonStore\', \'04121090185\', \'mundo.pc3@gmail.com\', \'Ciudad Guayana\', 0, \'2024-09-04\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `proveedor` (`logo_proveedor`, `nombre_representante`, `nombre_empresa`, `telefono`, `email`, `direccion`, `status`, `created_at`) VALUES (\'images/pokemon_1.png\', NULL, \'PokemonStore\', \'04121090185\', \'mundo.pc3@gmail.com\', \'Ciudad Guayana\', 0, \'2024-09-04\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `proveedor` (`logo_proveedor`, `nombre_representante`, `nombre_empresa`, `telefono`, `email`, `direccion`, `status`, `created_at`) VALUES (\'images/pokemon_1.png\', NULL, \'PokemonStore\', \'04121090185\', \'mundo.pc3@gmail.com\', \'Ciudad Guayana\', 0, \'2024-09-04\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `proveedor` (`logo_proveedor`, `nombre_representante`, `nombre_empresa`, `telefono`, `email`, `direccion`, `status`, `created_at`) VALUES (:logo_proveedor:, :nombre_representante:, :nombre_empresa:, :telefono:, :email:, :direccion:, :status:, :created_at:)', [...], false)
+ 5 APPPATH\Models\ProveedorModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\ProveedorController.php(60): App\Models\ProveedorModel->insertar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->store()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-04 01:07:44 --> mysqli_sql_exception: Column 'nombre_representante' cannot be null in C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\presupuesto\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\presupuesto\app\Models\ProveedorModel.php(34): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\presupuesto\app\Controllers\ProveedorController.php(60): App\Models\ProveedorModel->insertar(Array)
+#6 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(933): App\Controllers\ProveedorController->store()
+#7 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+#8 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\presupuesto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\presupuesto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\presupuesto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-09-04 01:07:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'nombre_representante' cannot be null
+[Method: POST, Route: formproveedor]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `proveedor` (`logo_proveedor`, `nombre_representante`, `nombre_empresa`, `telefono`, `email`, `direccion`, `status`, `created_at`) VALUES (:logo_proveedor:, :nombre_representante:, :nombre_empresa:, :telefono:, :email:, :direccion:, :status:, :created_at:)', [...], false)
+ 2 APPPATH\Models\ProveedorModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ProveedorController.php(60): App\Models\ProveedorModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->store()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 01:07:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'nombre_representante' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `proveedor` (`logo_proveedor`, `nombre_representante`, `nombre_empresa`, `telefono`, `email`, `direccion`, `status`, `created_at`) VALUES (\'images/pokemon_2.png\', NULL, \'PokemonStore\', \'04121090185\', \'mundo.pc3@gmail.com\', \'Ciudad Guayana\', 0, \'2024-09-04\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `proveedor` (`logo_proveedor`, `nombre_representante`, `nombre_empresa`, `telefono`, `email`, `direccion`, `status`, `created_at`) VALUES (\'images/pokemon_2.png\', NULL, \'PokemonStore\', \'04121090185\', \'mundo.pc3@gmail.com\', \'Ciudad Guayana\', 0, \'2024-09-04\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `proveedor` (`logo_proveedor`, `nombre_representante`, `nombre_empresa`, `telefono`, `email`, `direccion`, `status`, `created_at`) VALUES (:logo_proveedor:, :nombre_representante:, :nombre_empresa:, :telefono:, :email:, :direccion:, :status:, :created_at:)', [...], false)
+ 4 APPPATH\Models\ProveedorModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\ProveedorController.php(60): App\Models\ProveedorModel->insertar([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 01:07:44 --> [Caused by] mysqli_sql_exception: Column 'nombre_representante' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `proveedor` (`logo_proveedor`, `nombre_representante`, `nombre_empresa`, `telefono`, `email`, `direccion`, `status`, `created_at`) VALUES (\'images/pokemon_2.png\', NULL, \'PokemonStore\', \'04121090185\', \'mundo.pc3@gmail.com\', \'Ciudad Guayana\', 0, \'2024-09-04\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `proveedor` (`logo_proveedor`, `nombre_representante`, `nombre_empresa`, `telefono`, `email`, `direccion`, `status`, `created_at`) VALUES (\'images/pokemon_2.png\', NULL, \'PokemonStore\', \'04121090185\', \'mundo.pc3@gmail.com\', \'Ciudad Guayana\', 0, \'2024-09-04\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `proveedor` (`logo_proveedor`, `nombre_representante`, `nombre_empresa`, `telefono`, `email`, `direccion`, `status`, `created_at`) VALUES (\'images/pokemon_2.png\', NULL, \'PokemonStore\', \'04121090185\', \'mundo.pc3@gmail.com\', \'Ciudad Guayana\', 0, \'2024-09-04\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `proveedor` (`logo_proveedor`, `nombre_representante`, `nombre_empresa`, `telefono`, `email`, `direccion`, `status`, `created_at`) VALUES (:logo_proveedor:, :nombre_representante:, :nombre_empresa:, :telefono:, :email:, :direccion:, :status:, :created_at:)', [...], false)
+ 5 APPPATH\Models\ProveedorModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\ProveedorController.php(60): App\Models\ProveedorModel->insertar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->store()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-04 01:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-04 01:36:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-04 01:38:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-04 01:46:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-04 01:51:58 --> ErrorException: Undefined variable $cliente
+[Method: GET, Route: editarproveedor/1]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cliente', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 01:58:44 --> ErrorException: Undefined array key "logo"
+[Method: GET, Route: editarproveedor/1]
+in APPPATH\Views\proveedor\editar.php on line 43.
+ 1 APPPATH\Views\proveedor\editar.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "logo"', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 43)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 01:59:12 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/bootstrap/css/bootstrap.css]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'bootstrap', 'css', 'bootstrap.css')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 01:59:12 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/node-waves/waves.css]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'node-waves', 'waves.css')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 01:59:12 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/css/style.css]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('css', 'style.css')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 01:59:12 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/css/themes/all-themes.css]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('css', 'themes', 'all-themes.css')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 01:59:12 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/morrisjs/morris.css]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'morrisjs', 'morris.css')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 01:59:13 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/animate-css/animate.css]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'animate-css', 'animate.css')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 01:59:13 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/jquery/jquery.min.js]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'jquery', 'jquery.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 01:59:14 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/bootstrap/js/bootstrap.js]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'bootstrap', 'js', 'bootstrap.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 01:59:16 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/node-waves/waves.js]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'node-waves', 'waves.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 01:59:16 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/jquery-slimscroll/jquery.slimscroll.js]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'jquery-slimscroll', 'jquery.slimscroll.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 01:59:17 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/images/logo.jpeg]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('images', 'logo.jpeg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 01:59:17 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/jquery-countto/jquery.countTo.js]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'jquery-countto', 'jquery.countTo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 01:59:17 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/bootstrap-select/js/bootstrap-select.js]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'bootstrap-select', 'js', 'bootstrap-select.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 01:59:18 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/raphael/raphael.min.js]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'raphael', 'raphael.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 01:59:19 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/morrisjs/morris.js]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'morrisjs', 'morris.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 01:59:20 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/flot-charts/jquery.flot.js]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'flot-charts', 'jquery.flot.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 01:59:20 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/flot-charts/jquery.flot.pie.js]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'flot-charts', 'jquery.flot.pie.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 01:59:20 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/flot-charts/jquery.flot.resize.js]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'flot-charts', 'jquery.flot.resize.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 01:59:20 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/chartjs/Chart.bundle.js]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'chartjs', 'Chart.bundle.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 01:59:21 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/flot-charts/jquery.flot.categories.js]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'flot-charts', 'jquery.flot.categories.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 01:59:21 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/flot-charts/jquery.flot.time.js]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'flot-charts', 'jquery.flot.time.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 01:59:21 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/jquery-sparkline/jquery.sparkline.js]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'jquery-sparkline', 'jquery.sparkline.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 01:59:21 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/js/demo.js]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('js', 'demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 01:59:21 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/js/admin.js]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('js', 'admin.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 01:59:22 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/js/pages/index.js]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('js', 'pages', 'index.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 01:59:23 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/favicon.ico]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 02:00:36 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/node-waves/waves.css]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'node-waves', 'waves.css')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 02:00:36 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/bootstrap/css/bootstrap.css]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'bootstrap', 'css', 'bootstrap.css')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 02:00:36 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/css/themes/all-themes.css]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('css', 'themes', 'all-themes.css')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 02:00:36 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/css/style.css]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('css', 'style.css')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 02:00:36 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/morrisjs/morris.css]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'morrisjs', 'morris.css')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 02:00:36 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/animate-css/animate.css]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'animate-css', 'animate.css')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 02:00:38 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/jquery/jquery.min.js]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'jquery', 'jquery.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 02:00:38 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/bootstrap/js/bootstrap.js]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'bootstrap', 'js', 'bootstrap.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 02:00:38 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/bootstrap-select/js/bootstrap-select.js]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'bootstrap-select', 'js', 'bootstrap-select.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 02:00:39 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/jquery-slimscroll/jquery.slimscroll.js]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'jquery-slimscroll', 'jquery.slimscroll.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 02:00:39 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/images/logo.jpeg]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('images', 'logo.jpeg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 02:00:39 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/node-waves/waves.js]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'node-waves', 'waves.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 02:00:39 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/jquery-countto/jquery.countTo.js]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'jquery-countto', 'jquery.countTo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 02:00:40 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/raphael/raphael.min.js]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'raphael', 'raphael.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 02:00:40 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/morrisjs/morris.js]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'morrisjs', 'morris.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 02:00:40 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/chartjs/Chart.bundle.js]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'chartjs', 'Chart.bundle.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 02:00:41 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/flot-charts/jquery.flot.js]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'flot-charts', 'jquery.flot.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 02:00:41 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/flot-charts/jquery.flot.resize.js]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'flot-charts', 'jquery.flot.resize.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 02:00:41 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/flot-charts/jquery.flot.pie.js]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'flot-charts', 'jquery.flot.pie.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 02:00:43 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/flot-charts/jquery.flot.time.js]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'flot-charts', 'jquery.flot.time.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 02:00:43 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/jquery-sparkline/jquery.sparkline.js]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'jquery-sparkline', 'jquery.sparkline.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 02:00:43 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/flot-charts/jquery.flot.categories.js]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'flot-charts', 'jquery.flot.categories.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 02:00:44 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/js/admin.js]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('js', 'admin.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 02:00:45 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/js/pages/index.js]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('js', 'pages', 'index.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 02:00:45 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/js/demo.js]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('js', 'demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 02:00:47 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/favicon.ico]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 02:01:09 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/jquery-sparkline/jquery.sparkline.js]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'jquery-sparkline', 'jquery.sparkline.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 02:01:11 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/favicon.ico]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 02:01:19 --> ErrorException: Undefined variable $nombre
+[Method: POST, Route: guardarproveedor]
+in APPPATH\Controllers\ProveedorController.php on line 89.
+ 1 APPPATH\Controllers\ProveedorController.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', 'C:\\xampp\\htdocs\\presupuesto\\app\\Controllers\\ProveedorController.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-04 02:02:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-04 02:03:06 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/jquery-sparkline/jquery.sparkline.js]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'jquery-sparkline', 'jquery.sparkline.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 02:03:08 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/favicon.ico]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-04 02:03:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-04 02:09:39 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/jquery-sparkline/jquery.sparkline.js]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'jquery-sparkline', 'jquery.sparkline.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 02:09:42 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/favicon.ico]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-04 02:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-04 02:14:02 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/jquery-sparkline/jquery.sparkline.js]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'jquery-sparkline', 'jquery.sparkline.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 02:14:05 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/favicon.ico]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-04 02:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-04 02:20:41 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/jquery-sparkline/jquery.sparkline.js]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'jquery-sparkline', 'jquery.sparkline.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 02:20:44 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/favicon.ico]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-04 02:21:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-04 02:21:28 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/jquery-sparkline/jquery.sparkline.js]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'jquery-sparkline', 'jquery.sparkline.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 02:21:31 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/favicon.ico]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 02:23:35 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/jquery-sparkline/jquery.sparkline.js]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'jquery-sparkline', 'jquery.sparkline.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 02:23:37 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/favicon.ico]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 02:26:19 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/jquery-sparkline/jquery.sparkline.js]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'jquery-sparkline', 'jquery.sparkline.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 02:26:23 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/favicon.ico]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 02:26:26 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/jquery-sparkline/jquery.sparkline.js]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'jquery-sparkline', 'jquery.sparkline.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 02:26:30 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/favicon.ico]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-04 02:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-04 02:54:31 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/plugins/jquery-sparkline/jquery.sparkline.js]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('plugins', 'jquery-sparkline', 'jquery.sparkline.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 02:54:34 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarproveedor/favicon.ico]
+in APPPATH\Views\proveedor\editar.php on line 36.
+ 1 APPPATH\Views\proveedor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\ProveedorController.php(75): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProveedorController->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 02:55:38 --> Error: Class "App\Controllers\ProveedorModel" not found
+[Method: GET, Route: productos]
+in APPPATH\Controllers\ProductoController.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductoController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 03:08:21 --> Error: Class "App\Models\ProductoModel" not found
+[Method: GET, Route: productos]
+in APPPATH\Controllers\ProductoController.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductoController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 03:08:55 --> Error: Class "App\Models\ProductoModel" not found
+[Method: GET, Route: productos]
+in APPPATH\Controllers\ProductoController.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductoController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-04 03:37:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-04 03:46:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-04 03:47:40 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarusuario/plugins/jquery-sparkline/jquery.sparkline.js]
+in APPPATH\Views\usuario\editar.php on line 36.
+ 1 APPPATH\Views\usuario\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\usuario\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\usuario\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('usuario/editar', [], true)
+ 5 APPPATH\Controllers\UsuarioController.php(133): view('usuario/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UsuarioController->edit('plugins', 'jquery-sparkline', 'jquery.sparkline.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 03:47:41 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: editarusuario/favicon.ico]
+in APPPATH\Views\usuario\editar.php on line 36.
+ 1 APPPATH\Views\usuario\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\presupuesto\\app\\Views\\usuario\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\presupuesto\\app\\Views\\usuario\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('usuario/editar', [], true)
+ 5 APPPATH\Controllers\UsuarioController.php(133): view('usuario/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UsuarioController->edit('favicon.ico')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

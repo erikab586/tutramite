@@ -1,0 +1,120 @@
+INFO - 2024-09-30 18:38:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-30 18:38:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-30 18:54:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-30 19:21:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-30 19:22:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-30 19:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-30 19:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-30 19:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-30 19:27:52 --> mysqli_sql_exception: Column 'tipo_producto' cannot be null in C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\presupuesto\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\presupuesto\app\Models\ProductoModel.php(33): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\presupuesto\app\Controllers\ProductoController.php(70): App\Models\ProductoModel->insertar(Array)
+#6 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(933): App\Controllers\ProductoController->store()
+#7 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#8 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\presupuesto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\presupuesto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\presupuesto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-09-30 19:27:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'tipo_producto' cannot be null
+[Method: POST, Route: formproducto]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producto` (`id_proveedor`, `nombre_producto`, `img_producto`, `tipo_producto`, `precio_producto`, `observacion`, `status`, `color`, `ancho`, `alto`, `profundidad`, `peso`, `created_at`) VALUES (:id_proveedor:, :nombre_producto:, :img_producto:, :tipo_producto:, :precio_producto:, :observacion:, :status:, :color:, :ancho:, :alto:, :profundidad:, :peso:, :created_at:)', [...], false)
+ 2 APPPATH\Models\ProductoModel.php(33): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ProductoController.php(70): App\Models\ProductoModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductoController->store()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-30 19:27:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'tipo_producto' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `producto` (`id_proveedor`, `nombre_producto`, `img_producto`, `tipo_producto`, `precio_producto`, `observacion`, `status`, `color`, `ancho`, `alto`, `profundidad`, `peso`, `created_at`) VALUES (\'1\', \'Semi Cuero\', \'images/cuero.jpeg\', NULL, \'2500.25\', \'\', 1, \'Azul\', \'1000\', \'1000\', \'0\', \'0\', \'2024-09-30\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `producto` (`id_proveedor`, `nombre_producto`, `img_producto`, `tipo_producto`, `precio_producto`, `observacion`, `status`, `color`, `ancho`, `alto`, `profundidad`, `peso`, `created_at`) VALUES (\'1\', \'Semi Cuero\', \'images/cuero.jpeg\', NULL, \'2500.25\', \'\', 1, \'Azul\', \'1000\', \'1000\', \'0\', \'0\', \'2024-09-30\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producto` (`id_proveedor`, `nombre_producto`, `img_producto`, `tipo_producto`, `precio_producto`, `observacion`, `status`, `color`, `ancho`, `alto`, `profundidad`, `peso`, `created_at`) VALUES (:id_proveedor:, :nombre_producto:, :img_producto:, :tipo_producto:, :precio_producto:, :observacion:, :status:, :color:, :ancho:, :alto:, :profundidad:, :peso:, :created_at:)', [...], false)
+ 4 APPPATH\Models\ProductoModel.php(33): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\ProductoController.php(70): App\Models\ProductoModel->insertar([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductoController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-30 19:27:54 --> [Caused by] mysqli_sql_exception: Column 'tipo_producto' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `producto` (`id_proveedor`, `nombre_producto`, `img_producto`, `tipo_producto`, `precio_producto`, `observacion`, `status`, `color`, `ancho`, `alto`, `profundidad`, `peso`, `created_at`) VALUES (\'1\', \'Semi Cuero\', \'images/cuero.jpeg\', NULL, \'2500.25\', \'\', 1, \'Azul\', \'1000\', \'1000\', \'0\', \'0\', \'2024-09-30\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `producto` (`id_proveedor`, `nombre_producto`, `img_producto`, `tipo_producto`, `precio_producto`, `observacion`, `status`, `color`, `ancho`, `alto`, `profundidad`, `peso`, `created_at`) VALUES (\'1\', \'Semi Cuero\', \'images/cuero.jpeg\', NULL, \'2500.25\', \'\', 1, \'Azul\', \'1000\', \'1000\', \'0\', \'0\', \'2024-09-30\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `producto` (`id_proveedor`, `nombre_producto`, `img_producto`, `tipo_producto`, `precio_producto`, `observacion`, `status`, `color`, `ancho`, `alto`, `profundidad`, `peso`, `created_at`) VALUES (\'1\', \'Semi Cuero\', \'images/cuero.jpeg\', NULL, \'2500.25\', \'\', 1, \'Azul\', \'1000\', \'1000\', \'0\', \'0\', \'2024-09-30\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producto` (`id_proveedor`, `nombre_producto`, `img_producto`, `tipo_producto`, `precio_producto`, `observacion`, `status`, `color`, `ancho`, `alto`, `profundidad`, `peso`, `created_at`) VALUES (:id_proveedor:, :nombre_producto:, :img_producto:, :tipo_producto:, :precio_producto:, :observacion:, :status:, :color:, :ancho:, :alto:, :profundidad:, :peso:, :created_at:)', [...], false)
+ 5 APPPATH\Models\ProductoModel.php(33): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\ProductoController.php(70): App\Models\ProductoModel->insertar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductoController->store()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-30 19:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-30 21:23:09 --> BadMethodCallException: Call to undefined method App\Models\ProductoModel::productoVidrio
+[Method: GET, Route: formPresupuesto]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\PresupuestoController.php(34): CodeIgniter\Model->__call('productoVidrio', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PresupuestoController->presupuestoCliente()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PresupuestoController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-30 21:23:50 --> ArgumentCountError: Too few arguments to function App\Models\ProductoModel::productoCuero(), 0 passed in C:\xampp\htdocs\presupuesto\app\Controllers\PresupuestoController.php on line 34 and exactly 1 expected
+[Method: GET, Route: formPresupuesto]
+in APPPATH\Models\ProductoModel.php on line 86.
+ 1 APPPATH\Controllers\PresupuestoController.php(34): App\Models\ProductoModel->productoCuero()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PresupuestoController->presupuestoCliente()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PresupuestoController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-30 22:35:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-30 22:37:46 --> Error: Call to undefined function App\Controllers\r()
+[Method: GET, Route: crearmueble/9]
+in APPPATH\Controllers\MuebleController.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MuebleController->create('9')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MuebleController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-30 22:42:16 --> Error: Class "App\Controllers\PresupuestoModel" not found
+[Method: GET, Route: crearmueble/9]
+in APPPATH\Controllers\MuebleController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MuebleController->create('9')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MuebleController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-30 22:43:20 --> Error: Class "App\Controllers\PresupuestoModel" not found
+[Method: GET, Route: crearmueble/9]
+in APPPATH\Controllers\MuebleController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MuebleController->create('9')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MuebleController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-30 22:43:49 --> Error: Class "App\Models\Presupuesto" not found
+[Method: GET, Route: crearmueble/9]
+in APPPATH\Controllers\MuebleController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MuebleController->create('9')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MuebleController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

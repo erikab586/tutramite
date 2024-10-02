@@ -1,0 +1,1604 @@
+CRITICAL - 2024-08-31 14:13:59 --> Error: Class "App\Controllers\UsuarioModel" not found
+[Method: POST, Route: verificar]
+in APPPATH\Controllers\ClienteController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:15:58 --> Error: Class "App\Controllers\UsuarioModel" not found
+[Method: POST, Route: verificar]
+in APPPATH\Controllers\ClienteController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:16:23 --> Error: Class "App\Controllers\UsuarioModel" not found
+[Method: POST, Route: verificar]
+in APPPATH\Controllers\ClienteController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:19:29 --> Error: Class "App\Controllers\UsuarioModel" not found
+[Method: POST, Route: verificar]
+in APPPATH\Controllers\ClienteController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-08-31 14:25:15 --> mysqli_sql_exception: Unknown column 'status' in 'field list' in C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xampp\htdocs\presupuesto\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\xampp\htdocs\presupuesto\app\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\presupuesto\app\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar(Array)
+#6 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+#7 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+#8 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\presupuesto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\presupuesto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\presupuesto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-08-31 14:25:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+[Method: POST, Route: crear]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 2 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:25:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$Js3uEBN/955ljDqJAHQzF.4hEunBC2Jgx8lQCgQB926ovTWIzuexS\', 1)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$Js3uEBN/955ljDqJAHQzF.4hEunBC2Jgx8lQCgQB926ovTWIzuexS\', 1)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 4 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:25:16 --> [Caused by] mysqli_sql_exception: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$Js3uEBN/955ljDqJAHQzF.4hEunBC2Jgx8lQCgQB926ovTWIzuexS\', 1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$Js3uEBN/955ljDqJAHQzF.4hEunBC2Jgx8lQCgQB926ovTWIzuexS\', 1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$Js3uEBN/955ljDqJAHQzF.4hEunBC2Jgx8lQCgQB926ovTWIzuexS\', 1)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 5 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-08-31 14:25:57 --> mysqli_sql_exception: Unknown column 'status' in 'field list' in C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xampp\htdocs\presupuesto\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\xampp\htdocs\presupuesto\app\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\presupuesto\app\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar(Array)
+#6 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+#7 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+#8 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\presupuesto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\presupuesto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\presupuesto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-08-31 14:25:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+[Method: POST, Route: crear]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 2 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:25:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$.pN0Pbumrs3Y8d0sI4pdKenxtHil/eMmpCHtwskvt4Y7jLz9I8Mby\', 1)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$.pN0Pbumrs3Y8d0sI4pdKenxtHil/eMmpCHtwskvt4Y7jLz9I8Mby\', 1)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 4 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:25:57 --> [Caused by] mysqli_sql_exception: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$.pN0Pbumrs3Y8d0sI4pdKenxtHil/eMmpCHtwskvt4Y7jLz9I8Mby\', 1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$.pN0Pbumrs3Y8d0sI4pdKenxtHil/eMmpCHtwskvt4Y7jLz9I8Mby\', 1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$.pN0Pbumrs3Y8d0sI4pdKenxtHil/eMmpCHtwskvt4Y7jLz9I8Mby\', 1)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 5 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-08-31 14:27:15 --> mysqli_sql_exception: Unknown column 'status' in 'field list' in C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xampp\htdocs\presupuesto\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\xampp\htdocs\presupuesto\app\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\presupuesto\app\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar(Array)
+#6 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+#7 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+#8 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\presupuesto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\presupuesto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\presupuesto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-08-31 14:27:15 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+[Method: POST, Route: crear]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 2 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:27:15 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$MBThuHO4tPKgO9mtXRn/5O3Hx0lqj3Od0nMYhw0umU9sFhQ2nImDO\', 1)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$MBThuHO4tPKgO9mtXRn/5O3Hx0lqj3Od0nMYhw0umU9sFhQ2nImDO\', 1)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 4 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:27:15 --> [Caused by] mysqli_sql_exception: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$MBThuHO4tPKgO9mtXRn/5O3Hx0lqj3Od0nMYhw0umU9sFhQ2nImDO\', 1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$MBThuHO4tPKgO9mtXRn/5O3Hx0lqj3Od0nMYhw0umU9sFhQ2nImDO\', 1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$MBThuHO4tPKgO9mtXRn/5O3Hx0lqj3Od0nMYhw0umU9sFhQ2nImDO\', 1)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 5 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-08-31 14:30:25 --> mysqli_sql_exception: Unknown column 'status' in 'field list' in C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xampp\htdocs\presupuesto\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\xampp\htdocs\presupuesto\app\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\presupuesto\app\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar(Array)
+#6 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+#7 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+#8 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\presupuesto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\presupuesto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\presupuesto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-08-31 14:30:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+[Method: POST, Route: crear]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 2 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:30:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$3.PFr0GdF.yRBU2iFwSkTuYLyNOISfmIYWJRocy75bO1ZK1stWl9y\', 1)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$3.PFr0GdF.yRBU2iFwSkTuYLyNOISfmIYWJRocy75bO1ZK1stWl9y\', 1)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 4 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:30:25 --> [Caused by] mysqli_sql_exception: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$3.PFr0GdF.yRBU2iFwSkTuYLyNOISfmIYWJRocy75bO1ZK1stWl9y\', 1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$3.PFr0GdF.yRBU2iFwSkTuYLyNOISfmIYWJRocy75bO1ZK1stWl9y\', 1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$3.PFr0GdF.yRBU2iFwSkTuYLyNOISfmIYWJRocy75bO1ZK1stWl9y\', 1)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 5 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-08-31 14:32:08 --> mysqli_sql_exception: Unknown column 'status' in 'field list' in C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xampp\htdocs\presupuesto\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\xampp\htdocs\presupuesto\app\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\presupuesto\app\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar(Array)
+#6 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+#7 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+#8 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\presupuesto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\presupuesto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\presupuesto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-08-31 14:32:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+[Method: POST, Route: crear]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 2 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:32:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$yTatKnowm7WDUMFQIBmmhe3p8IKABklMgph.ouQzn5F/wltz.X./S\', 1)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$yTatKnowm7WDUMFQIBmmhe3p8IKABklMgph.ouQzn5F/wltz.X./S\', 1)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 4 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:32:08 --> [Caused by] mysqli_sql_exception: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$yTatKnowm7WDUMFQIBmmhe3p8IKABklMgph.ouQzn5F/wltz.X./S\', 1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$yTatKnowm7WDUMFQIBmmhe3p8IKABklMgph.ouQzn5F/wltz.X./S\', 1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$yTatKnowm7WDUMFQIBmmhe3p8IKABklMgph.ouQzn5F/wltz.X./S\', 1)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 5 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-08-31 14:32:32 --> mysqli_sql_exception: Unknown column 'status' in 'field list' in C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xampp\htdocs\presupuesto\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\xampp\htdocs\presupuesto\app\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\presupuesto\app\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar(Array)
+#6 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+#7 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+#8 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\presupuesto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\presupuesto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\presupuesto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-08-31 14:32:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+[Method: POST, Route: crear]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 2 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:32:32 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$UZvzjPmI3gmHQqrYKJIoP.YBCbGo5eEHpaD7RgDynRvfvubGt7/uq\', 1)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$UZvzjPmI3gmHQqrYKJIoP.YBCbGo5eEHpaD7RgDynRvfvubGt7/uq\', 1)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 4 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:32:32 --> [Caused by] mysqli_sql_exception: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$UZvzjPmI3gmHQqrYKJIoP.YBCbGo5eEHpaD7RgDynRvfvubGt7/uq\', 1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$UZvzjPmI3gmHQqrYKJIoP.YBCbGo5eEHpaD7RgDynRvfvubGt7/uq\', 1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$UZvzjPmI3gmHQqrYKJIoP.YBCbGo5eEHpaD7RgDynRvfvubGt7/uq\', 1)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 5 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-08-31 14:33:03 --> mysqli_sql_exception: Unknown column 'status' in 'field list' in C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xampp\htdocs\presupuesto\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\xampp\htdocs\presupuesto\app\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\presupuesto\app\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar(Array)
+#6 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+#7 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+#8 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\presupuesto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\presupuesto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\presupuesto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-08-31 14:33:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+[Method: POST, Route: crear]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 2 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:33:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$3XN7d7GcStvtrycKSQjBZ./LqBPzu5wTmamtYpwO89BkTEm/0RXyq\', 1)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$3XN7d7GcStvtrycKSQjBZ./LqBPzu5wTmamtYpwO89BkTEm/0RXyq\', 1)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 4 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:33:03 --> [Caused by] mysqli_sql_exception: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$3XN7d7GcStvtrycKSQjBZ./LqBPzu5wTmamtYpwO89BkTEm/0RXyq\', 1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$3XN7d7GcStvtrycKSQjBZ./LqBPzu5wTmamtYpwO89BkTEm/0RXyq\', 1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$3XN7d7GcStvtrycKSQjBZ./LqBPzu5wTmamtYpwO89BkTEm/0RXyq\', 1)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 5 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-08-31 14:33:46 --> mysqli_sql_exception: Unknown column 'status' in 'field list' in C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xampp\htdocs\presupuesto\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\xampp\htdocs\presupuesto\app\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\presupuesto\app\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar(Array)
+#6 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+#7 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+#8 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\presupuesto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\presupuesto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\presupuesto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-08-31 14:33:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+[Method: POST, Route: crear]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 2 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:33:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$I1O/adQI4zp/Z5RqMcaJWeY9WVgE2st4h1Tcgw7sCp/qbEoNHVRjm\', 1)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$I1O/adQI4zp/Z5RqMcaJWeY9WVgE2st4h1Tcgw7sCp/qbEoNHVRjm\', 1)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 4 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:33:46 --> [Caused by] mysqli_sql_exception: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$I1O/adQI4zp/Z5RqMcaJWeY9WVgE2st4h1Tcgw7sCp/qbEoNHVRjm\', 1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$I1O/adQI4zp/Z5RqMcaJWeY9WVgE2st4h1Tcgw7sCp/qbEoNHVRjm\', 1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$I1O/adQI4zp/Z5RqMcaJWeY9WVgE2st4h1Tcgw7sCp/qbEoNHVRjm\', 1)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 5 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-08-31 14:34:01 --> mysqli_sql_exception: Unknown column 'status' in 'field list' in C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xampp\htdocs\presupuesto\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\xampp\htdocs\presupuesto\app\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\presupuesto\app\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar(Array)
+#6 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+#7 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+#8 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\presupuesto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\presupuesto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\presupuesto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-08-31 14:34:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+[Method: POST, Route: crear]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 2 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:34:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$d.ywV9ZSAxuSn.l0UCD7k.vHxyBz1p/XEoVyUuY9HsgRc56M7Nlu.\', 1)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$d.ywV9ZSAxuSn.l0UCD7k.vHxyBz1p/XEoVyUuY9HsgRc56M7Nlu.\', 1)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 4 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:34:01 --> [Caused by] mysqli_sql_exception: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$d.ywV9ZSAxuSn.l0UCD7k.vHxyBz1p/XEoVyUuY9HsgRc56M7Nlu.\', 1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$d.ywV9ZSAxuSn.l0UCD7k.vHxyBz1p/XEoVyUuY9HsgRc56M7Nlu.\', 1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$d.ywV9ZSAxuSn.l0UCD7k.vHxyBz1p/XEoVyUuY9HsgRc56M7Nlu.\', 1)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 5 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-08-31 14:35:16 --> mysqli_sql_exception: Unknown column 'status' in 'field list' in C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xampp\htdocs\presupuesto\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\xampp\htdocs\presupuesto\app\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\presupuesto\app\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar(Array)
+#6 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+#7 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+#8 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\presupuesto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\presupuesto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\presupuesto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-08-31 14:35:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+[Method: POST, Route: crear]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 2 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:35:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$4orbwCS18ON9tThQ/rsL5uQcFZUjdMZovjjaZHBUDOE4sWXuZAsoK\', 1)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$4orbwCS18ON9tThQ/rsL5uQcFZUjdMZovjjaZHBUDOE4sWXuZAsoK\', 1)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 4 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:35:16 --> [Caused by] mysqli_sql_exception: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$4orbwCS18ON9tThQ/rsL5uQcFZUjdMZovjjaZHBUDOE4sWXuZAsoK\', 1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$4orbwCS18ON9tThQ/rsL5uQcFZUjdMZovjjaZHBUDOE4sWXuZAsoK\', 1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$4orbwCS18ON9tThQ/rsL5uQcFZUjdMZovjjaZHBUDOE4sWXuZAsoK\', 1)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 5 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-08-31 14:35:32 --> mysqli_sql_exception: Unknown column 'status' in 'field list' in C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xampp\htdocs\presupuesto\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\xampp\htdocs\presupuesto\app\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\presupuesto\app\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar(Array)
+#6 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+#7 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+#8 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\presupuesto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\presupuesto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\presupuesto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-08-31 14:35:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+[Method: POST, Route: crear]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 2 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:35:32 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$i8LK8J2z2czuafTG8HoUaeqnQdUC8Px6YF3R4ccwFzWTBSMjWIzwG\', 1)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$i8LK8J2z2czuafTG8HoUaeqnQdUC8Px6YF3R4ccwFzWTBSMjWIzwG\', 1)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 4 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:35:32 --> [Caused by] mysqli_sql_exception: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$i8LK8J2z2czuafTG8HoUaeqnQdUC8Px6YF3R4ccwFzWTBSMjWIzwG\', 1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$i8LK8J2z2czuafTG8HoUaeqnQdUC8Px6YF3R4ccwFzWTBSMjWIzwG\', 1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$i8LK8J2z2czuafTG8HoUaeqnQdUC8Px6YF3R4ccwFzWTBSMjWIzwG\', 1)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 5 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-08-31 14:37:54 --> mysqli_sql_exception: Unknown column 'status' in 'field list' in C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xampp\htdocs\presupuesto\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\xampp\htdocs\presupuesto\app\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\presupuesto\app\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar(Array)
+#6 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+#7 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+#8 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\presupuesto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\presupuesto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\presupuesto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-08-31 14:37:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+[Method: POST, Route: crear]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 2 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:37:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'erikab644@gmail.com\', \'$2y$10$CHEmi5RmCtpaGLfP0Qo0weor/FofGhsz6cvqHfzGtYJBoDWRConX.\', 1)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'erikab644@gmail.com\', \'$2y$10$CHEmi5RmCtpaGLfP0Qo0weor/FofGhsz6cvqHfzGtYJBoDWRConX.\', 1)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 4 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:37:54 --> [Caused by] mysqli_sql_exception: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'erikab644@gmail.com\', \'$2y$10$CHEmi5RmCtpaGLfP0Qo0weor/FofGhsz6cvqHfzGtYJBoDWRConX.\', 1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'erikab644@gmail.com\', \'$2y$10$CHEmi5RmCtpaGLfP0Qo0weor/FofGhsz6cvqHfzGtYJBoDWRConX.\', 1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'erikab644@gmail.com\', \'$2y$10$CHEmi5RmCtpaGLfP0Qo0weor/FofGhsz6cvqHfzGtYJBoDWRConX.\', 1)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 5 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-08-31 14:38:05 --> mysqli_sql_exception: Unknown column 'status' in 'field list' in C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xampp\htdocs\presupuesto\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\xampp\htdocs\presupuesto\app\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\presupuesto\app\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar(Array)
+#6 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+#7 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+#8 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\presupuesto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\presupuesto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\presupuesto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-08-31 14:38:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+[Method: POST, Route: crear]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 2 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:38:05 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$qR8MU3CRRLLlBbonm7MIFuhQQTZBh/JIxc8tczYLDZy0JqRNZrrXS\', 1)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$qR8MU3CRRLLlBbonm7MIFuhQQTZBh/JIxc8tczYLDZy0JqRNZrrXS\', 1)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 4 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:38:05 --> [Caused by] mysqli_sql_exception: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$qR8MU3CRRLLlBbonm7MIFuhQQTZBh/JIxc8tczYLDZy0JqRNZrrXS\', 1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$qR8MU3CRRLLlBbonm7MIFuhQQTZBh/JIxc8tczYLDZy0JqRNZrrXS\', 1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$qR8MU3CRRLLlBbonm7MIFuhQQTZBh/JIxc8tczYLDZy0JqRNZrrXS\', 1)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 5 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-08-31 14:38:37 --> mysqli_sql_exception: Unknown column 'status' in 'field list' in C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xampp\htdocs\presupuesto\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\xampp\htdocs\presupuesto\app\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\presupuesto\app\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar(Array)
+#6 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+#7 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+#8 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\presupuesto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\presupuesto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\presupuesto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-08-31 14:38:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+[Method: POST, Route: crear]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 2 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:38:37 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$wQm7qaj1vkDY2OCnPTwBj.0pD.AL9z1044kVBqgtT2bLb5aJFj64m\', 1)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$wQm7qaj1vkDY2OCnPTwBj.0pD.AL9z1044kVBqgtT2bLb5aJFj64m\', 1)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 4 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:38:37 --> [Caused by] mysqli_sql_exception: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$wQm7qaj1vkDY2OCnPTwBj.0pD.AL9z1044kVBqgtT2bLb5aJFj64m\', 1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$wQm7qaj1vkDY2OCnPTwBj.0pD.AL9z1044kVBqgtT2bLb5aJFj64m\', 1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$wQm7qaj1vkDY2OCnPTwBj.0pD.AL9z1044kVBqgtT2bLb5aJFj64m\', 1)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 5 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-08-31 14:39:12 --> mysqli_sql_exception: Unknown column 'status' in 'field list' in C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xampp\htdocs\presupuesto\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\xampp\htdocs\presupuesto\app\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\presupuesto\app\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar(Array)
+#6 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+#7 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+#8 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\presupuesto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\presupuesto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\presupuesto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-08-31 14:39:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+[Method: POST, Route: crear]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 2 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:39:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$IwTUV8DJ3kk9ENP08vDt7eZv.E7h7mupywXRLpyJTdsT9cfP9VGYW\', 1)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$IwTUV8DJ3kk9ENP08vDt7eZv.E7h7mupywXRLpyJTdsT9cfP9VGYW\', 1)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 4 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:39:12 --> [Caused by] mysqli_sql_exception: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$IwTUV8DJ3kk9ENP08vDt7eZv.E7h7mupywXRLpyJTdsT9cfP9VGYW\', 1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$IwTUV8DJ3kk9ENP08vDt7eZv.E7h7mupywXRLpyJTdsT9cfP9VGYW\', 1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$IwTUV8DJ3kk9ENP08vDt7eZv.E7h7mupywXRLpyJTdsT9cfP9VGYW\', 1)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 5 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-08-31 14:39:30 --> mysqli_sql_exception: Unknown column 'status' in 'field list' in C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xampp\htdocs\presupuesto\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\xampp\htdocs\presupuesto\app\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\presupuesto\app\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar(Array)
+#6 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+#7 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+#8 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\presupuesto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\presupuesto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\presupuesto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-08-31 14:39:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+[Method: POST, Route: crear]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 2 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:39:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$9.BgmHV6pv2rweXLfbV3DOQ1WEzUMMm1OMw9NDkONOLoi9GBNEgGy\', 1)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$9.BgmHV6pv2rweXLfbV3DOQ1WEzUMMm1OMw9NDkONOLoi9GBNEgGy\', 1)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 4 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:39:30 --> [Caused by] mysqli_sql_exception: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$9.BgmHV6pv2rweXLfbV3DOQ1WEzUMMm1OMw9NDkONOLoi9GBNEgGy\', 1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$9.BgmHV6pv2rweXLfbV3DOQ1WEzUMMm1OMw9NDkONOLoi9GBNEgGy\', 1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$9.BgmHV6pv2rweXLfbV3DOQ1WEzUMMm1OMw9NDkONOLoi9GBNEgGy\', 1)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 5 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-08-31 14:43:46 --> mysqli_sql_exception: Unknown column 'status' in 'field list' in C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xampp\htdocs\presupuesto\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\xampp\htdocs\presupuesto\app\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\presupuesto\app\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar(Array)
+#6 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+#7 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+#8 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\presupuesto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\presupuesto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\presupuesto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-08-31 14:43:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+[Method: POST, Route: crear]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 2 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:43:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$.050leZnHLWUMSvUUQ7C1OwNuS8PQxfE0iaRYKKWWFiV9D0HURgsO\', 1)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$.050leZnHLWUMSvUUQ7C1OwNuS8PQxfE0iaRYKKWWFiV9D0HURgsO\', 1)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 4 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:43:46 --> [Caused by] mysqli_sql_exception: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$.050leZnHLWUMSvUUQ7C1OwNuS8PQxfE0iaRYKKWWFiV9D0HURgsO\', 1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$.050leZnHLWUMSvUUQ7C1OwNuS8PQxfE0iaRYKKWWFiV9D0HURgsO\', 1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$.050leZnHLWUMSvUUQ7C1OwNuS8PQxfE0iaRYKKWWFiV9D0HURgsO\', 1)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 5 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-08-31 14:44:34 --> mysqli_sql_exception: Unknown column 'status' in 'field list' in C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xampp\htdocs\presupuesto\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\xampp\htdocs\presupuesto\app\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\presupuesto\app\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar(Array)
+#6 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+#7 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+#8 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\presupuesto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\presupuesto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\presupuesto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-08-31 14:44:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+[Method: POST, Route: crear]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 2 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:44:34 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$NIol9U2/gbvn5EygvUn84.G0xfpaBFgiXC6zjSzSLbdQz/WIKte0S\', 1)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$NIol9U2/gbvn5EygvUn84.G0xfpaBFgiXC6zjSzSLbdQz/WIKte0S\', 1)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 4 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:44:34 --> [Caused by] mysqli_sql_exception: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$NIol9U2/gbvn5EygvUn84.G0xfpaBFgiXC6zjSzSLbdQz/WIKte0S\', 1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$NIol9U2/gbvn5EygvUn84.G0xfpaBFgiXC6zjSzSLbdQz/WIKte0S\', 1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$NIol9U2/gbvn5EygvUn84.G0xfpaBFgiXC6zjSzSLbdQz/WIKte0S\', 1)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 5 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-08-31 14:45:51 --> mysqli_sql_exception: Unknown column 'status' in 'field list' in C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xampp\htdocs\presupuesto\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\xampp\htdocs\presupuesto\app\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\presupuesto\app\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar(Array)
+#6 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+#7 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+#8 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\presupuesto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\presupuesto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\presupuesto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-08-31 14:45:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+[Method: POST, Route: crear]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 2 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:45:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'erikab644@gmail.com\', \'$2y$10$KmUzAqgiYTTk5I9e4CuBEe5gmfqFYHQenERDhwqZ14tV/0nso3SKa\', 1)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'erikab644@gmail.com\', \'$2y$10$KmUzAqgiYTTk5I9e4CuBEe5gmfqFYHQenERDhwqZ14tV/0nso3SKa\', 1)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 4 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:45:51 --> [Caused by] mysqli_sql_exception: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'erikab644@gmail.com\', \'$2y$10$KmUzAqgiYTTk5I9e4CuBEe5gmfqFYHQenERDhwqZ14tV/0nso3SKa\', 1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'erikab644@gmail.com\', \'$2y$10$KmUzAqgiYTTk5I9e4CuBEe5gmfqFYHQenERDhwqZ14tV/0nso3SKa\', 1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'erikab644@gmail.com\', \'$2y$10$KmUzAqgiYTTk5I9e4CuBEe5gmfqFYHQenERDhwqZ14tV/0nso3SKa\', 1)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 5 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-08-31 14:46:08 --> mysqli_sql_exception: Unknown column 'status' in 'field list' in C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xampp\htdocs\presupuesto\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\xampp\htdocs\presupuesto\app\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\presupuesto\app\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar(Array)
+#6 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+#7 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+#8 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\presupuesto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\presupuesto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\presupuesto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-08-31 14:46:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+[Method: POST, Route: crear]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 2 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:46:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'erikab644@gmail.com\', \'$2y$10$SCa21PnLLdMJXfsFBitLbOl5Cvm5gKShsPMjU9mbz/7fJa3paXK1q\', 1)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'erikab644@gmail.com\', \'$2y$10$SCa21PnLLdMJXfsFBitLbOl5Cvm5gKShsPMjU9mbz/7fJa3paXK1q\', 1)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 4 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:46:08 --> [Caused by] mysqli_sql_exception: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'erikab644@gmail.com\', \'$2y$10$SCa21PnLLdMJXfsFBitLbOl5Cvm5gKShsPMjU9mbz/7fJa3paXK1q\', 1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'erikab644@gmail.com\', \'$2y$10$SCa21PnLLdMJXfsFBitLbOl5Cvm5gKShsPMjU9mbz/7fJa3paXK1q\', 1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'erikab644@gmail.com\', \'$2y$10$SCa21PnLLdMJXfsFBitLbOl5Cvm5gKShsPMjU9mbz/7fJa3paXK1q\', 1)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 5 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-08-31 14:47:36 --> mysqli_sql_exception: Unknown column 'status' in 'field list' in C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xampp\htdocs\presupuesto\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\xampp\htdocs\presupuesto\app\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\presupuesto\app\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar(Array)
+#6 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+#7 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+#8 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\presupuesto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\presupuesto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\presupuesto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-08-31 14:47:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+[Method: POST, Route: crear]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 2 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:47:36 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'erikab644@gmail.com\', \'$2y$10$.zmiSSKEv5BYjYzueGio2.fG9Z7U4tlcpsE6vfLFUT3PSg862jdVq\', 1)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'erikab644@gmail.com\', \'$2y$10$.zmiSSKEv5BYjYzueGio2.fG9Z7U4tlcpsE6vfLFUT3PSg862jdVq\', 1)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 4 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:47:36 --> [Caused by] mysqli_sql_exception: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'erikab644@gmail.com\', \'$2y$10$.zmiSSKEv5BYjYzueGio2.fG9Z7U4tlcpsE6vfLFUT3PSg862jdVq\', 1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'erikab644@gmail.com\', \'$2y$10$.zmiSSKEv5BYjYzueGio2.fG9Z7U4tlcpsE6vfLFUT3PSg862jdVq\', 1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'erikab644@gmail.com\', \'$2y$10$.zmiSSKEv5BYjYzueGio2.fG9Z7U4tlcpsE6vfLFUT3PSg862jdVq\', 1)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 5 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-08-31 14:52:34 --> mysqli_sql_exception: Unknown column 'status' in 'field list' in C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xampp\htdocs\presupuesto\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\xampp\htdocs\presupuesto\app\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\presupuesto\app\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar(Array)
+#6 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+#7 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+#8 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\presupuesto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\presupuesto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\presupuesto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-08-31 14:52:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+[Method: POST, Route: crear]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 2 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:52:34 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$RA5F8n.1k/wiQBQp1FmE9efgVUu7LMFeMkRwtKKL2pqlzsV2mJV0.\', 1)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$RA5F8n.1k/wiQBQp1FmE9efgVUu7LMFeMkRwtKKL2pqlzsV2mJV0.\', 1)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 4 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:52:34 --> [Caused by] mysqli_sql_exception: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$RA5F8n.1k/wiQBQp1FmE9efgVUu7LMFeMkRwtKKL2pqlzsV2mJV0.\', 1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$RA5F8n.1k/wiQBQp1FmE9efgVUu7LMFeMkRwtKKL2pqlzsV2mJV0.\', 1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$RA5F8n.1k/wiQBQp1FmE9efgVUu7LMFeMkRwtKKL2pqlzsV2mJV0.\', 1)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 5 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-08-31 14:55:39 --> mysqli_sql_exception: Unknown column 'status' in 'field list' in C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xampp\htdocs\presupuesto\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\xampp\htdocs\presupuesto\app\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\presupuesto\app\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar(Array)
+#6 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+#7 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+#8 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\presupuesto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\presupuesto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\presupuesto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-08-31 14:55:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+[Method: POST, Route: crear]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 2 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:55:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$Q/I1aEkIax3bqnbHa6ARV.VzAQLX/uMoN9hoaTEuDQ4QJEL0em0r6\', 1)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$Q/I1aEkIax3bqnbHa6ARV.VzAQLX/uMoN9hoaTEuDQ4QJEL0em0r6\', 1)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 4 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:55:39 --> [Caused by] mysqli_sql_exception: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$Q/I1aEkIax3bqnbHa6ARV.VzAQLX/uMoN9hoaTEuDQ4QJEL0em0r6\', 1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$Q/I1aEkIax3bqnbHa6ARV.VzAQLX/uMoN9hoaTEuDQ4QJEL0em0r6\', 1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$Q/I1aEkIax3bqnbHa6ARV.VzAQLX/uMoN9hoaTEuDQ4QJEL0em0r6\', 1)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 5 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-08-31 14:56:01 --> mysqli_sql_exception: Unknown column 'status' in 'field list' in C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xampp\htdocs\presupuesto\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\xampp\htdocs\presupuesto\app\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\presupuesto\app\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar(Array)
+#6 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+#7 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+#8 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\presupuesto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\presupuesto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\presupuesto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-08-31 14:56:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+[Method: POST, Route: crear]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 2 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:56:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$efg4eab/zSIPl.tNR34yXu0Sknzk4leWpHA9yAbEK3DUgQGievXfW\', 1)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$efg4eab/zSIPl.tNR34yXu0Sknzk4leWpHA9yAbEK3DUgQGievXfW\', 1)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 4 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:56:01 --> [Caused by] mysqli_sql_exception: Unknown column 'status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$efg4eab/zSIPl.tNR34yXu0Sknzk4leWpHA9yAbEK3DUgQGievXfW\', 1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$efg4eab/zSIPl.tNR34yXu0Sknzk4leWpHA9yAbEK3DUgQGievXfW\', 1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (\'Erika Maria\', \'Fernandez Brito\', \'04121090185\', \'yosoyproferika@gmail.com\', \'$2y$10$efg4eab/zSIPl.tNR34yXu0Sknzk4leWpHA9yAbEK3DUgQGievXfW\', 1)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`nombre`, `apellido`, `telefono`, `email`, `password`, `status`) VALUES (:nombre:, :apellido:, :telefono:, :email:, :password:, :status:)', [...], false)
+ 5 APPPATH\Models\ClienteModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\ClienteController.php(65): App\Models\ClienteModel->insertar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 14:56:32 --> ErrorException: Undefined variable $repuesta
+[Method: POST, Route: crear]
+in APPPATH\Controllers\ClienteController.php on line 75.
+ 1 APPPATH\Controllers\ClienteController.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $repuesta', 'C:\\xampp\\htdocs\\presupuesto\\app\\Controllers\\ClienteController.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->create()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 15:14:06 --> ErrorException: Undefined array key "status"
+[Method: POST, Route: verificar]
+in APPPATH\Controllers\ClienteController.php on line 29.
+ 1 APPPATH\Controllers\ClienteController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'C:\\xampp\\htdocs\\presupuesto\\app\\Controllers\\ClienteController.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClienteController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 15:14:53 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "cliente/solicitud.php"
+[Method: GET, Route: solicitud]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cliente/solicitud.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('cliente/solicitud', [], true)
+ 3 APPPATH\Controllers\PresupuestoController.php(13): view('cliente/solicitud')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PresupuestoController->solicitud()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PresupuestoController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 15:17:08 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "cliente/solicitud.php"
+[Method: GET, Route: solicitud]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cliente/solicitud.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('cliente/solicitud', [], true)
+ 3 APPPATH\Controllers\PresupuestoController.php(14): view('cliente/solicitud')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PresupuestoController->solicitudPresupuesto()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PresupuestoController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 18:09:08 --> Error: Call to a member function isValid() on null
+[Method: POST, Route: cargarPresupuesto]
+in APPPATH\Controllers\PresupuestoController.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PresupuestoController->store()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PresupuestoController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 18:11:20 --> Error: Call to a member function isValid() on null
+[Method: POST, Route: cargarPresupuesto]
+in APPPATH\Controllers\PresupuestoController.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PresupuestoController->store()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PresupuestoController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 18:13:59 --> Error: Call to a member function isValid() on null
+[Method: POST, Route: cargarPresupuesto]
+in APPPATH\Controllers\PresupuestoController.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PresupuestoController->store()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PresupuestoController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 18:14:51 --> Error: Call to a member function isValid() on null
+[Method: POST, Route: cargarPresupuesto]
+in APPPATH\Controllers\PresupuestoController.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PresupuestoController->store()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PresupuestoController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 18:16:39 --> ErrorException: Undefined variable $var_dump
+[Method: POST, Route: cargarPresupuesto]
+in APPPATH\Controllers\PresupuestoController.php on line 72.
+ 1 APPPATH\Controllers\PresupuestoController.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $var_dump', 'C:\\xampp\\htdocs\\presupuesto\\app\\Controllers\\PresupuestoController.php', 72)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PresupuestoController->store()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PresupuestoController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 18:22:45 --> ErrorException: Undefined variable $var_dump
+[Method: POST, Route: cargarPresupuesto]
+in APPPATH\Controllers\PresupuestoController.php on line 37.
+ 1 APPPATH\Controllers\PresupuestoController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $var_dump', 'C:\\xampp\\htdocs\\presupuesto\\app\\Controllers\\PresupuestoController.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PresupuestoController->store()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PresupuestoController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 18:28:42 --> ParseError: syntax error, unexpected token "*"
+[Method: POST, Route: cargarPresupuesto]
+in APPPATH\Controllers\PresupuestoController.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\presupuesto\\app\\Controllers\\PresupuestoController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\PresupuestoController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\PresupuestoController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\PresupuestoController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 18:46:21 --> Error: Call to a member function isValid() on bool
+[Method: POST, Route: cargarPresupuesto]
+in APPPATH\Controllers\PresupuestoController.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PresupuestoController->store()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PresupuestoController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 19:37:39 --> Error: Call to a member function isValid() on bool
+[Method: POST, Route: cargarPresupuesto]
+in APPPATH\Controllers\PresupuestoController.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PresupuestoController->store()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PresupuestoController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 19:38:36 --> Error: Call to a member function isValid() on bool
+[Method: POST, Route: cargarPresupuesto]
+in APPPATH\Controllers\PresupuestoController.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PresupuestoController->store()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PresupuestoController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 19:39:06 --> Error: Call to a member function isValid() on bool
+[Method: POST, Route: cargarPresupuesto]
+in APPPATH\Controllers\PresupuestoController.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PresupuestoController->store()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PresupuestoController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 19:40:10 --> ErrorException: Undefined variable $var_dump
+[Method: POST, Route: cargarPresupuesto]
+in APPPATH\Controllers\PresupuestoController.php on line 73.
+ 1 APPPATH\Controllers\PresupuestoController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $var_dump', 'C:\\xampp\\htdocs\\presupuesto\\app\\Controllers\\PresupuestoController.php', 73)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PresupuestoController->store()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PresupuestoController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 19:41:22 --> ErrorException: Undefined variable $var_dump
+[Method: POST, Route: cargarPresupuesto]
+in APPPATH\Controllers\PresupuestoController.php on line 73.
+ 1 APPPATH\Controllers\PresupuestoController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $var_dump', 'C:\\xampp\\htdocs\\presupuesto\\app\\Controllers\\PresupuestoController.php', 73)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PresupuestoController->store()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PresupuestoController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 19:41:30 --> ErrorException: Undefined variable $var_dump
+[Method: POST, Route: cargarPresupuesto]
+in APPPATH\Controllers\PresupuestoController.php on line 73.
+ 1 APPPATH\Controllers\PresupuestoController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $var_dump', 'C:\\xampp\\htdocs\\presupuesto\\app\\Controllers\\PresupuestoController.php', 73)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PresupuestoController->store()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PresupuestoController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 19:54:28 --> ErrorException: Undefined variable $var_dump
+[Method: POST, Route: cargarPresupuesto]
+in APPPATH\Controllers\PresupuestoController.php on line 39.
+ 1 APPPATH\Controllers\PresupuestoController.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $var_dump', 'C:\\xampp\\htdocs\\presupuesto\\app\\Controllers\\PresupuestoController.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PresupuestoController->store()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PresupuestoController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 19:58:38 --> ErrorException: Undefined variable $titulo
+[Method: POST, Route: cargarPresupuesto]
+in APPPATH\Controllers\PresupuestoController.php on line 53.
+ 1 APPPATH\Controllers\PresupuestoController.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'C:\\xampp\\htdocs\\presupuesto\\app\\Controllers\\PresupuestoController.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PresupuestoController->store()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PresupuestoController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 20:02:50 --> ErrorException: Undefined variable $titulo
+[Method: POST, Route: cargarPresupuesto]
+in APPPATH\Controllers\PresupuestoController.php on line 53.
+ 1 APPPATH\Controllers\PresupuestoController.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'C:\\xampp\\htdocs\\presupuesto\\app\\Controllers\\PresupuestoController.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PresupuestoController->store()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PresupuestoController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 20:08:12 --> ErrorException: Undefined variable $titulo
+[Method: POST, Route: cargarPresupuesto]
+in APPPATH\Controllers\PresupuestoController.php on line 54.
+ 1 APPPATH\Controllers\PresupuestoController.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'C:\\xampp\\htdocs\\presupuesto\\app\\Controllers\\PresupuestoController.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PresupuestoController->store()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PresupuestoController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-08-31 21:51:30 --> mysqli_sql_exception: Unknown column 'usuario' in 'field list' in C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\presupuesto\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\presupuesto\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\presupuesto\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\presupuesto\app\Models\PresupuestoModel.php(34): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\presupuesto\app\Controllers\PresupuestoController.php(68): App\Models\PresupuestoModel->insertar(Array)
+#6 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(933): App\Controllers\PresupuestoController->store()
+#7 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PresupuestoController))
+#8 C:\xampp\htdocs\presupuesto\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\presupuesto\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\presupuesto\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\presupuesto\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-08-31 21:51:31 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'usuario' in 'field list'
+[Method: POST, Route: cargarPresupuesto]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `presupuest` (`imagen`, `usuario`, `material`, `ancho`, `alto`, `profundidad`, `color`, `acabado`, `ubicacion`, `created_at`) VALUES (:imagen:, :usuario:, :material:, :ancho:, :alto:, :profundidad:, :color:, :acabado:, :ubicacion:, :created_at:)', [...], false)
+ 2 APPPATH\Models\PresupuestoModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\PresupuestoController.php(68): App\Models\PresupuestoModel->insertar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PresupuestoController->store()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PresupuestoController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 21:51:31 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'usuario' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `presupuest` (`imagen`, `usuario`, `material`, `ancho`, `alto`, `profundidad`, `color`, `acabado`, `ubicacion`, `created_at`) VALUES (\'images/580b57fcd9996e24bc43c27e (1).png\', \'4\', \'Madera\', \'74\', \'45.6\', \'0.0\', \'Marrón\', \'Barniz\', \'Cocina\', \'2024-08-31\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `presupuest` (`imagen`, `usuario`, `material`, `ancho`, `alto`, `profundidad`, `color`, `acabado`, `ubicacion`, `created_at`) VALUES (\'images/580b57fcd9996e24bc43c27e (1).png\', \'4\', \'Madera\', \'74\', \'45.6\', \'0.0\', \'Marrón\', \'Barniz\', \'Cocina\', \'2024-08-31\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `presupuest` (`imagen`, `usuario`, `material`, `ancho`, `alto`, `profundidad`, `color`, `acabado`, `ubicacion`, `created_at`) VALUES (:imagen:, :usuario:, :material:, :ancho:, :alto:, :profundidad:, :color:, :acabado:, :ubicacion:, :created_at:)', [...], false)
+ 4 APPPATH\Models\PresupuestoModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\PresupuestoController.php(68): App\Models\PresupuestoModel->insertar([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PresupuestoController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PresupuestoController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 21:51:32 --> [Caused by] mysqli_sql_exception: Unknown column 'usuario' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `presupuest` (`imagen`, `usuario`, `material`, `ancho`, `alto`, `profundidad`, `color`, `acabado`, `ubicacion`, `created_at`) VALUES (\'images/580b57fcd9996e24bc43c27e (1).png\', \'4\', \'Madera\', \'74\', \'45.6\', \'0.0\', \'Marrón\', \'Barniz\', \'Cocina\', \'2024-08-31\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `presupuest` (`imagen`, `usuario`, `material`, `ancho`, `alto`, `profundidad`, `color`, `acabado`, `ubicacion`, `created_at`) VALUES (\'images/580b57fcd9996e24bc43c27e (1).png\', \'4\', \'Madera\', \'74\', \'45.6\', \'0.0\', \'Marrón\', \'Barniz\', \'Cocina\', \'2024-08-31\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `presupuest` (`imagen`, `usuario`, `material`, `ancho`, `alto`, `profundidad`, `color`, `acabado`, `ubicacion`, `created_at`) VALUES (\'images/580b57fcd9996e24bc43c27e (1).png\', \'4\', \'Madera\', \'74\', \'45.6\', \'0.0\', \'Marrón\', \'Barniz\', \'Cocina\', \'2024-08-31\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `presupuest` (`imagen`, `usuario`, `material`, `ancho`, `alto`, `profundidad`, `color`, `acabado`, `ubicacion`, `created_at`) VALUES (:imagen:, :usuario:, :material:, :ancho:, :alto:, :profundidad:, :color:, :acabado:, :ubicacion:, :created_at:)', [...], false)
+ 5 APPPATH\Models\PresupuestoModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\PresupuestoController.php(68): App\Models\PresupuestoModel->insertar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PresupuestoController->store()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PresupuestoController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
